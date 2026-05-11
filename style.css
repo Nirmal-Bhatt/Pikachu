@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.title img{
+    background-color: transparent;
+    height: 50px;
+    width:150px;
+    margin-left: 20px;
+    margin-top:20px;
+}
+
+
+.main{
+    display:flex;
+    gap:0;
+    background-color: #fff;
+    padding: 20px;
+
+}
+
+.left{
+    background-color:rgb(251, 197, 11) ;
+    width: 55%;
+    height:95vh;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-bottom: 0;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 0px  rgb(177, 176, 176);
+}
+
+.right{
+    background-color:rgb(251, 231, 180) ;
+    flex:1;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+    box-shadow: 0 5px 0px  rgb(177, 176, 176);
+}
+
+.pikachu img{
+    position: absolute;
+    left:42%;
+    top:20%;
+}
+
+#menu{
+    position: absolute;
+    right: 3%;
+    font-size: 30px;
+    top:5%;
+
+}
+
+.content{
+    margin-top: 70px;
+    margin-left:20px;
+}
+
+h4{
+    font-weight: 300;
+}
+
+#h1{
+    margin-top: 20px;
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.content p{
+    font-weight: 10;
+    font-size: smaller;
+}
+
+#img{
+    margin-top:80px;
+    height:350px;
+    width:310px;
+    margin-bottom:20px;
+}
+
+
+.bubbles{
+    position: absolute;
+    right:5%;
+    top:45%;
+}
+
+.bubble{
+    height:10px;
+    width:10px;
+    border-radius: 50%;
+    background-color: rgb(251, 197, 11);
+    margin-bottom:15px;
+}
+
+
+.bubble:hover{
+    background-color: black;
+    height: 12px;
+    width:12px;
+}
+
